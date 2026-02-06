@@ -1,0 +1,31 @@
+/*Background*/
+body{
+    background-image:url("../images/bg.pink.jpeg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+}
+
+/* Card */
+.todo-card{
+    background-color:#ec4899; /* pink tua */
+}
+
+/* Todo item */
+.todo-item{
+    background-color:#fbcfe8;
+    color:#831843;
+    padding:10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Complited */
+.completed{
+    text-decoration:line-through;
+    opacity:0.6;
+}
